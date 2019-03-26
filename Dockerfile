@@ -25,4 +25,9 @@ RUN rm -rf ~/.npm \
   && npm cache verify \
   && echo "unsafe-perm = true" >> ~/.npmrc
 
+  # Angular
+RUN yarn global add @angular/cli@$ANGULAR_VERSION
+
+EXPOSE 4200 49153
+
 CMD ["bash"]
