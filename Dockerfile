@@ -1,6 +1,6 @@
 ARG NODE_VERSION=10.15
 
-FROM NODE:${NODE_VERSION}-alpine
+FROM node:${NODE_VERSION}-alpine
 
 LABEL author="zinderud"
 LABEL description="Docker image for Node.js development"
