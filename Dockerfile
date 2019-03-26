@@ -30,4 +30,4 @@ RUN yarn global add @angular/cli@$ANGULAR_VERSION
 
 EXPOSE 4200 49153
 
-CMD ["bash"]
+ 
